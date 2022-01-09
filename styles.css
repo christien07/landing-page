@@ -1,11 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
 .main {
     display: flex;
 }
 
 header {
     background-color: #1F2937;
+    color: white;
+    display: inline-flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 .top {
     background-color: #1F2937;
+}
+
+.middle {
+    background-color: white;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.bottom {
+    background-color: white;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: auto;
+}
+
+li {
+    padding: 8px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
 }
