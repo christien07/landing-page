@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    
 }
 
 body {
@@ -20,17 +19,19 @@ body {
 header {
     background-color: #1F2937;
     color: white;
+    padding: 0 96px;
     display: inline-flex;
 }
 
 h1 {
-    padding-left: 48px;
+    font-size: 18px;
+    color: #F9FAF8;
+    
     text-align: center;
 }
 
 .top-center h2 {
-    text-align: center;
-    margin-right: auto;
+    
     font-size: 48px;
     color: #F9FAF8;
 }
@@ -47,6 +48,7 @@ h1 {
 
 .top {
     display: flex;
+    padding: 0 96px 16px 96px;
     background-color: #1F2937;
     color: white;
 }
@@ -54,17 +56,21 @@ h1 {
 .top-center {
     display: flex;
     flex-direction: column;
+    padding: 16px;
 }
 
 .middle {
     background-color: white;
+    padding: 0 96px;
 }
 
 .testimonial {
+    padding: 0 96px;
     background-color: #E5E7EB;
 }
 
 .bottom {
+    padding: 48px 96px;
     background-color: white;
 }
 
@@ -75,13 +81,12 @@ ul {
 }
 
 li {
-    padding: 8px;
+    padding: 0 8px 0 0;
 }
 
 .links {
     text-align: center;
     margin-left: auto;
-    padding-right: 48px;
 }
 
 footer {
@@ -108,16 +113,39 @@ button {
     border: 1px solid white;
 }
 
+.box-btn {
+    margin-left: auto;
+    
+}
+
 .card-container {
     display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0 96px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.card div {
     padding: 16px;
     flex-wrap: wrap;
     border: 4px solid #3882F6;
-    flex: 1;
     border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.card p {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
 }
 
 .quote {
@@ -128,24 +156,28 @@ button {
     padding: 48px;
 }
 
-.testimonial#thor {
+#thor p {
     margin-left: auto;
 }
 
 .image-placeholder {
     background-color: darkgrey;
-    
+    min-height: 300px;
+    min-width: 400px;
     padding: 8px;
-    align-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
 }
 
-.image-placeholder p {
-    text-align: center;
+#placeholder-text {
+    margin: auto;
 }
 
 .box {
+    display: flex;
     margin: auto;
-    justify-content: space-around;
     background-color: #3882F6;
     color: white;
+    padding: 16px;
 }
